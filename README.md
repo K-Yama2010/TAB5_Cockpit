@@ -238,7 +238,7 @@ Select from 3 approach wind difficulty levels:
 <br>
 <br>
 
-- **① Airspeed Tape (AIRSPEED TAPE)**  
+- **① Airspeed Tape **  
   * Displays current indicated airspeed in knots (kt).  
   * The red pointer indicates the current airspeed.
 
@@ -246,7 +246,7 @@ Select from 3 approach wind difficulty levels:
   * Shows the currently commanded engine throttle setting.  
   * Indicated by a yellow triangle; higher means increased thrust, lower means reduced thrust.
 
-- **③ Altitude Tape (ALTITUDE TAPE)**  
+- **③ Altitude Tape **  
   * Displays current altitude above runway level in feet (ft).  
   * The red pointer indicates the current altitude.
 
@@ -258,17 +258,17 @@ Select from 3 approach wind difficulty levels:
   * The digital box at the top displays current heading (000°–359°).  
   * The green compass tape below with the red pointer shows real-time magnetic heading and cardinal directions (N/E/S/W).
 
-- **⑥ Boresight Reticle (BORESIGHT RETICLE)**  
+- **⑥ Boresight Reticle **  
   * A fixed red crosshair in the center showing where the aircraft's longitudinal axis (nose) is pointing.
 
-- **⑦ Flight Path Marker (FLIGHT PATH MARKER / FPM)**  
+- **⑦ Flight Path Marker (FPM)**  
   * A dynamic white reticle indicating the aircraft's actual ground velocity vector.  
   * Keep this white crosshair centered over the runway touchdown zone (⑨) during final approach.
 
-- **⑧ Head-Up Display (HEAD-UP DISPLAY / HUD)**  
+- **⑧ Head-Up Display (HUD)**  
   * Pitch ladder with blue bars (solid lines = pitch-up, dashed lines = pitch-down) providing intuitive spatial orientation and bank angle.
 
-- **⑨ Runway & Approach Lighting (RUNWAY & APPROACH LIGHTS)**  
+- **⑨ Runway & Approach Lighting **  
   * Complete 3D airfield lighting including ALS flashers (white), side-row bars (red), threshold lights (green), touchdown zone lights (white), runway edge lights (white), and airport perimeter/taxiway lights (cyan).  
   * The sequentially flashing white strobe leads directly to the runway threshold. Distant city lights (orange) are also rendered.
 
