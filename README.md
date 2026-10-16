@@ -180,16 +180,19 @@ Features real-time 3D rendering of runway lighting systems (ALS flashers, touchd
 Select from 3 aircraft models on the title screen:
 
 - **1: ARCADE**  
+
   * An intuitive, simplified flight model. Recommended for players new to flight simulators.  
   * No aerodynamic stalls or engine spool delays; the nose points directly where you steer the stick.  
   * Vertical descent is determined strictly by the direction the nose is pointing.
 
 - **2: HONDA-JET**  
+
   * A 3D aerodynamic flight model recreating the agile flight dynamics of a light business jet.  
   * Real-time calculation of lift, drag, sideslip, and aerodynamic stall with sharp control authority.  
   * Exceeding the critical angle of attack (approx. 18 degrees) due to excessive pitch-up or low airspeed will trigger an aerodynamic stall and automatic nose-drop.
 
 - **3: B-737**  
+
   * Faithfully replicates the heavy inertia, control lag, and turbofan engine spool delay (2.5s spool-up / 2.0s spool-down) of a large commercial airliner.  
   * Control inputs experience realistic response lag before the airframe begins rolling or pitching.  
   * Designed for advanced pilots requiring proactive, anticipatory control inputs.
@@ -201,14 +204,17 @@ Select from 3 aircraft models on the title screen:
 Uses a virtual dual-stick touch interface on the left and right halves of the screen. Supports two standard transmitter modes commonly used for RC aircraft and drones:
 
 - **MODE 1**  
+
   * Left Stick (L): Vertical = Pitch (Elevator) / Horizontal = Yaw (Rudder)  
   * Right Stick (R): Vertical = Throttle / Horizontal = Roll (Aileron)
 
 - **MODE 2**  
+
   * Left Stick (L): Vertical = Throttle / Horizontal = Yaw (Rudder)  
   * Right Stick (R): Vertical = Pitch (Elevator) / Horizontal = Roll (Aileron)
 
 - **Control Tips**  
+
   * Pitch, roll, and yaw automatically return to neutral (center) when released.  
   * Throttle maintains its last set position (0–100%) even after releasing your touch.  
   * The circular indicators (green circles) at the bottom show real-time stick input positions.
@@ -220,14 +226,17 @@ Uses a virtual dual-stick touch interface on the left and right halves of the sc
 Select from 3 approach wind difficulty levels:
 
 - **0: CALM (0kt)**  
+
   * Zero wind.  
   * Heading aligns directly with the flight path marker (FPM), providing the most stable approach path.
 
 - **1: CROSS (10kt)**  
+
   * A constant 5.0 m/s (approx. 10 knots) crosswind/headwind component blowing randomly from the forward quadrant.  
   * Requires a "crab" approach (angling the nose into the wind) to prevent drift and stay on the runway centerline.
 
 - **2: GUST (10kt+)**  
+
   * Combines the 10kt base crosswind with dynamic gust components (horizontal ±1.8 m/s) and vertical turbulence (±0.8 m/s).  
   * Constant stick and throttle corrections are required to manage fluctuations in airspeed and descent path.
 
@@ -238,41 +247,51 @@ Select from 3 approach wind difficulty levels:
 <br>
 <br>
 
-- **① Airspeed Tape **  
+- **① Airspeed Tape**  
+
   * Displays current indicated airspeed in knots (kt).  
   * The red pointer indicates the current airspeed.
 
 - **② Throttle Indicator (FAST / SLOW)**  
+
   * Shows the currently commanded engine throttle setting.  
   * Indicated by a yellow triangle; higher means increased thrust, lower means reduced thrust.
 
-- **③ Altitude Tape **  
+- **③ Altitude Tape**  
+
   * Displays current altitude above runway level in feet (ft).  
   * The red pointer indicates the current altitude.
 
 - **④ Vertical Speed Indicator (VSI)**  
+
   * Displays climb / descent rate in feet per minute (ft/min).  
   * The center horizontal yellow bar represents level flight (0 ft/min); the yellow triangle indicates climb (UP) or descent (DOWN).
 
 - **⑤ Heading Tape & Digital Readout (HEADING TAPE)**  
+
   * The digital box at the top displays current heading (000°–359°).  
   * The green compass tape below with the red pointer shows real-time magnetic heading and cardinal directions (N/E/S/W).
 
-- **⑥ Boresight Reticle **  
+- **⑥ Boresight Reticle**  
+
   * A fixed red crosshair in the center showing where the aircraft's longitudinal axis (nose) is pointing.
 
 - **⑦ Flight Path Marker (FPM)**  
+
   * A dynamic white reticle indicating the aircraft's actual ground velocity vector.  
   * Keep this white crosshair centered over the runway touchdown zone (⑨) during final approach.
 
 - **⑧ Head-Up Display (HUD)**  
+
   * Pitch ladder with blue bars (solid lines = pitch-up, dashed lines = pitch-down) providing intuitive spatial orientation and bank angle.
 
-- **⑨ Runway & Approach Lighting **  
+- **⑨ Runway & Approach Lighting**  
+
   * Complete 3D airfield lighting including ALS flashers (white), side-row bars (red), threshold lights (green), touchdown zone lights (white), runway edge lights (white), and airport perimeter/taxiway lights (cyan).  
   * The sequentially flashing white strobe leads directly to the runway threshold. Distant city lights (orange) are also rendered.
 
 - **⑩ Control Stick Indicators (LEFT & RIGHT STICK)**  
+
   * Circular gauges at the bottom corners displaying real-time stick deflections (pitch, roll, yaw) and throttle position as yellow dots.  
   * Automatically matches the active control mode (MODE 1 / MODE 2).
 
@@ -283,18 +302,22 @@ Select from 3 approach wind difficulty levels:
 ### Initial Setup
 - All models start at altitude 150 m, 2,500 m out on final approach, airspeed 135 kt, and descent rate -700 ft/min.
 
+
 ### Approach & Touchdown Procedures
 - **Landing the ARCADE model**  
+
   * Descent occurs only when the nose is pointing downward. Pointing the nose level or upward will completely halt the descent; ignore throttle adjustments and keep the nose directed downward toward the runway throughout the approach.  
   * The hard landing threshold allows up to -900 ft/min; maintain a steady descent profile (-500 to -800 ft/min) and guide the aircraft firmly into the touchdown zone.
 
 - **Landing the HONDA-JET**  
+
   * Target touchdown speed: 115–130 kt  
   * Maintain an approach angle of attack around 5 degrees.  
   * Flight controls are very responsive; use small, delicate corrections rather than large deflections.  
   * Excessive pitch-up or low airspeed can cause an aerodynamic stall (exceeding 18 degrees AoA) resulting in a hard ground impact; maintain an adequate approach speed.
 
 - **Landing the B-737**  
+
   * Target touchdown speed: 125–138 kt  
   * Engine spool lag takes more than 2 seconds to produce commanded thrust. Anticipate sink rates early and adjust throttle before the VSI needle drops.  
   * Heavy roll inertia requires crisp control inputs returned immediately to neutral to prevent over-controlling.  
@@ -307,25 +330,30 @@ Select from 3 approach wind difficulty levels:
 Exceeding any of the following limits at touchdown or during the landing rollout triggers an immediate "CRASH / IMPACT":
 
 - **Excessive Sink Rate (Hard Landing)**  
+
   * B-737: Touchdown descent rate exceeds -750 ft/min  
   * ARCADE / HONDA-JET: Touchdown descent rate exceeds -900 ft/min  
   * Caused by excessive sink rates or stalling onto the ground.
 
 - **Abnormal Attitude (Wing Strike / Inverted)**  
+
   * Aircraft is tilted by approximately 18 degrees or more (bank or pitch) at touchdown.  
   * Caused by wingtip strikes or severe rollover. Always level the wings before touchdown.
 
 - **Runway Lateral Deviation (Centerline Out)**  
+
   * Touchdown or rollout position deviates more than 30 m laterally from the runway centerline.  
   * The aircraft has run off the edge of the 60 m wide runway surface. Keep the Flight Path Marker centered to prevent drifting in crosswinds.
 
 - **Undershoot / Overrun (Short / Long)**  
+
   * Touchdown occurs too far short of the runway.  
   * Touchdown occurs too far down the runway, or the rollout exceeds the end of the runway.  
   * This means undershooting by crashing into the ground short of the green runway end lights, or overshooting the full 3,000 m runway length. Aim to touch down within the white touchdown zone lights located 100 m to 900 m down the runway.
 
-　　<BR>
-  　<BR>
+<br>
+<br>
+
 ---
 
 ## Source Code Availability
