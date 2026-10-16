@@ -154,6 +154,14 @@ ESP32-P4（M5Stack TAB5）向けに開発された夜間着陸シミュレータ
   * 接地位置が滑走路の手前すぎる場合  
   * 接地位置または滑走停止位置が滑走路の奥を行き過ぎた場合 
   * 緑のランウェイエンド灯（Z=0m）より手前の地面に突っ込むアンダーシュート、または全長3,000mを走り抜けてしまうオーバーランです。手前100〜900mにある白い接地帯灯を目安にタッチダウンしてください。
+　　<BR>
+  　<BR>
+ ---
+
+## ソースコードの公開について
+
+現在、プログラムの整理およびリファクタリング作業を行っております。  
+準備が整い次第公開いたしますので、公開まで今しばらくお待ちいただけますようお願い申し上げます。   
  <br>
    <BR>
    <BR>
@@ -316,6 +324,12 @@ Exceeding any of the following limits at touchdown or during the landing rollout
   * Touchdown occurs too far down the runway, or the rollout exceeds the end of the runway.  
   * This means undershooting by crashing into the ground short of the green runway end lights, or overshooting the full 3,000 m runway length. Aim to touch down within the white touchdown zone lights located 100 m to 900 m down the runway.
 
+　　<BR>
+  　<BR>
+---
 
+## Source Code Availability
 
+The source code is currently being organized and cleaned up.  
+It will be made publicly available as soon as it is ready. Thank you for your patience and understanding.
 
