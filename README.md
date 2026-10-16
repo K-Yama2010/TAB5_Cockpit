@@ -175,7 +175,7 @@ Features real-time 3D rendering of runway lighting systems (ALS flashers, touchd
 
 ---
 
-## 1. Aircraft Models (AIRCRAFT MODEL)
+## 1. Aircraft Models 
 
 Select from 3 aircraft models on the title screen:
 
@@ -196,7 +196,7 @@ Select from 3 aircraft models on the title screen:
 
 ---
 
-## 2. Control Mode (CONTROL MODE)
+## 2. Control Mode 
 
 Uses a virtual dual-stick touch interface on the left and right halves of the screen. Supports two standard transmitter modes commonly used for RC aircraft and drones:
 
@@ -215,7 +215,7 @@ Uses a virtual dual-stick touch interface on the left and right halves of the sc
 
 ---
 
-## 3. Wind Conditions (WIND CONDITIONS)
+## 3. Wind Conditions 
 
 Select from 3 approach wind difficulty levels:
 
@@ -233,7 +233,7 @@ Select from 3 approach wind difficulty levels:
 
 ---
 
-## 4. Cockpit HUD Display (COCKPIT HUD DISPLAY)
+## 4. Cockpit HUD Display 
 ![COCKPIT HUD DISPLAY](images/2.jpg)
 <br>
 <br>
@@ -278,7 +278,7 @@ Select from 3 approach wind difficulty levels:
 
 ---
 
-## 5. Landing Tips (LANDING TIPS)
+## 5. Landing Tips 
 
 ### Initial Setup
 - All models start at altitude 150 m, 2,500 m out on final approach, airspeed 135 kt, and descent rate -700 ft/min.
@@ -302,7 +302,7 @@ Select from 3 approach wind difficulty levels:
 
 ---
 
-## 6. Crash Criteria (CRASH CRITERIA)
+## 6. Crash Criteria 
 
 Exceeding any of the following limits at touchdown or during the landing rollout triggers an immediate "CRASH / IMPACT":
 
