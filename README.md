@@ -159,10 +159,7 @@ ESP32-P4（M5Stack TAB5）向けに開発された夜間着陸シミュレータ
    <BR>
    <BR>
 
-
-
-
-
+   
 # TAB5 Cockpit - Night Landing Flight Simulator
 
 A dedicated night landing flight simulator developed for ESP32-P4 (M5Stack TAB5).  
@@ -177,7 +174,7 @@ Select from 3 aircraft models on the title screen:
 - **1: ARCADE**  
   * An intuitive, simplified flight model. Recommended for players new to flight simulators.  
   * No aerodynamic stalls or engine spool delays; the nose points directly where you steer the stick.  
-  * Vertical descent rate is determined strictly by the aircraft's pitch attitude.
+  * Vertical descent is determined strictly by the direction the nose is pointing.
 
 - **2: HONDA-JET**  
   * A 3D aerodynamic flight model recreating the agile flight dynamics of a light business jet.  
@@ -276,45 +273,49 @@ Select from 3 approach wind difficulty levels:
 ## 5. Landing Tips (LANDING TIPS)
 
 ### Initial Setup
-- All models start at altitude 150 m (approx. 492 ft), 2,500 m out on final approach, airspeed 135 kt, and descent rate -700 ft/min.
+- All models start at altitude 150 m, 2,500 m out on final approach, airspeed 135 kt, and descent rate -700 ft/min.
 
 ### Approach & Touchdown Procedures
 - **Landing the ARCADE model**  
-  * Descent rate is dictated strictly by nose-down pitch. Flying level or nose-up stops the descent completely; ignore throttle management and maintain a negative pitch (nose down towards the runway) throughout the approach.  
-  * Hard landing threshold allows up to -900 ft/min; establish a steady descent profile (-500 to -800 ft/min) and guide the aircraft firmly into the touchdown zone.
+  * Descent occurs only when the nose is pointing downward. Pointing the nose level or upward will completely halt the descent; ignore throttle adjustments and keep the nose directed downward toward the runway throughout the approach.  
+  * The hard landing threshold allows up to -900 ft/min; maintain a steady descent profile (-500 to -800 ft/min) and guide the aircraft firmly into the touchdown zone.
 
 - **Landing the HONDA-JET**  
   * Target touchdown speed: 115–130 kt  
   * Maintain an approach angle of attack around 5 degrees.  
   * Flight controls are very responsive; use small, delicate corrections rather than large deflections.  
-  * Stalling (exceeding 18 degrees AoA) at low speeds causes an unrecoverable hard landing, so maintain adequate approach speed.
+  * Excessive pitch-up or low airspeed can cause an aerodynamic stall (exceeding 18 degrees AoA) resulting in a hard ground impact; maintain an adequate approach speed.
 
 - **Landing the B-737**  
   * Target touchdown speed: 125–138 kt  
   * Engine spool lag takes more than 2 seconds to produce commanded thrust. Anticipate sink rates early and adjust throttle before the VSI needle drops.  
-  * Heavy roll inertia requires crisp control inputs returned immediately to neutral to prevent pilot-induced oscillations (PIO).  
-  * Touchdown sink rate tolerance is strict (max -750 ft/min). Flare gently (+2 to +4 degrees pitch) just before touchdown to cushion the main gear impact.
+  * Heavy roll inertia requires crisp control inputs returned immediately to neutral to prevent over-controlling.  
+  * Touchdown sink rate tolerance is strict (maximum -750 ft/min). Flare gently (+2 to +4 degrees pitch) just before touchdown to cushion the main gear impact.
 
 ---
 
 ## 6. Crash Criteria (CRASH CRITERIA)
 
-Exceeding any of the following limits at touchdown ($Y \le 0$) or during the landing rollout triggers an immediate "CRASH / IMPACT":
+Exceeding any of the following limits at touchdown or during the landing rollout triggers an immediate "CRASH / IMPACT":
 
 - **Excessive Sink Rate (Hard Landing)**  
-  * B-737: Touchdown descent rate exceeding **-750 ft/min**  
-  * ARCADE / HONDA-JET: Touchdown descent rate exceeding **-900 ft/min**  
-  * Caused by steep approaches, insufficient flare, or stalling onto the runway.
+  * B-737: Touchdown descent rate exceeds -750 ft/min  
+  * ARCADE / HONDA-JET: Touchdown descent rate exceeds -900 ft/min  
+  * Caused by excessive sink rates or stalling onto the ground.
+
 - **Abnormal Attitude (Wing Strike / Inverted)**  
-  * Vertical attitude Uy <= 0.95 at touchdown (pitch or bank angle tilted by approx. 18 degrees or more).  
+  * Aircraft is tilted by approximately 18 degrees or more (bank or pitch) at touchdown.  
   * Caused by wingtip strikes or severe rollover. Always level the wings before touchdown.
 
 - **Runway Lateral Deviation (Centerline Out)**  
-  * Touchdown or rollout position exceeding 30 m laterally from the centerline (|X| > 30 m).  
-  * The aircraft has drifted off the 60 m wide runway surface. Keep the Flight Path Marker centered against crosswinds.
+  * Touchdown or rollout position deviates more than 30 m laterally from the runway centerline.  
+  * The aircraft has run off the edge of the 60 m wide runway surface. Keep the Flight Path Marker centered to prevent drifting in crosswinds.
 
 - **Undershoot / Overrun (Short / Long)**  
-  * Touchdown occurring short of the runway threshold (Z > 0 m).  
-  * Touchdown or rollout exceeding the runway end (Z < -3000 m).  
-  * Aim for the white touchdown zone lights located 100 m to 900 m past the green threshold lights.
+  * Touchdown occurs too far short of the runway.  
+  * Touchdown occurs too far down the runway, or the rollout exceeds the end of the runway.  
+  * This means undershooting by crashing into the ground short of the green runway end lights, or overshooting the full 3,000 m runway length. Aim to touch down within the white touchdown zone lights located 100 m to 900 m down the runway.
+
+
+
 
