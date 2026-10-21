@@ -161,7 +161,6 @@ ESP32-P4（M5Stack TAB5）向けに開発された夜間着陸シミュレータ
 夜の明石海峡大橋を舞台にしたフライトステージです。
 
 ![明石海峡大橋の夜景](images/3.jpg)
-![明石海峡大橋の夜景2](images/4.jpg)
 
 ライトアップされた巨大な吊り橋と、海峡沿いに広がる街の灯り。  
 夜景を楽しみながら、橋の下をくぐり抜けるスリリングな飛行に挑戦できます。  
@@ -348,7 +347,6 @@ Exceeding any of the following limits at touchdown or during the landing rollout
 This flight stage takes place around the Akashi Kaikyo Bridge at night.
 
 ![Night View of the Akashi Kaikyo Bridge](images/3.jpg)
-![Night View of the Akashi Kaikyo Bridge2](images/4.jpg)
 
 The massive illuminated suspension bridge and the lights of the coastal city spread along the strait.  
 Enjoy the thrilling challenge of flying beneath the bridge while taking in the night scenery.  
