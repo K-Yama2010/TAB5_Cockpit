@@ -342,6 +342,21 @@ Exceeding any of the following limits at touchdown or during the landing rollout
 
 ---
 
+## 7. Bridge Challenge (BRIDGE CHALLENGE) 
+
+This flight stage takes place around the Akashi Kaikyo Bridge at night.
+
+![Night View of the Akashi Kaikyo Bridge](images/3.jpg)
+
+The massive illuminated suspension bridge and the lights of the coastal city spread along the strait.  
+Enjoy the thrilling challenge of flying beneath the bridge while taking in the night scenery.  
+Since the horizon is not visible, pay close attention to the altimeter and the bridge pier bases just before approaching.  
+The bridge piers are 200 ft high. Fly beneath the bridge at an altitude below 200 ft.
+
+　　<BR>
+　<BR>
+---
+
 ## Source Code Availability
 
 The source code is currently being organized and cleaned up.  
