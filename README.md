@@ -342,7 +342,7 @@ Exceeding any of the following limits at touchdown or during the landing rollout
 
 ---
 
-## 7. Bridge Challenge (BRIDGE CHALLENGE) 
+## 7. Bridge Challenge  
 
 This flight stage takes place around the Akashi Kaikyo Bridge at night.
 
